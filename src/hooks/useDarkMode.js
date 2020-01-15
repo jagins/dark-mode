@@ -18,7 +18,7 @@ export const useDarkMode = () =>
         {
             bodyElement.classList.remove('dark-mode');
         }
-    }, [darkMode]);
+    }, [darkMode, bodyElement]);
 
     return [darkMode, setDarkMode];
 }
