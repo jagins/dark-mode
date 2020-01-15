@@ -3,7 +3,6 @@ import { useState } from 'react';
 //useLocalStorage is a custom hook
 export const useLocalStorage = (key, initialValue) => 
 {
-    
     //setup state using useState and passing in an annymous function
     const [storedValue, setStoredValue] = useState(() => 
     {
